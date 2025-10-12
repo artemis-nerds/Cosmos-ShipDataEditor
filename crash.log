@@ -1,0 +1,15 @@
+[Start 12/10/2025 13:36:30.54] 
+Traceback (most recent call last):
+  File "shipDataEditor.py", line 44, in <module>
+    _dlg_mod  = _load_module_from(_DLG_PATH, "orion_dialogs")
+  File "shipDataEditor.py", line 36, in _load_module_from
+    spec.loader.exec_module(mod)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\Fish_\Documents\GitHub\Cosmos-ShipDataEditor\OrionData\dialogs.py", line 109, in <module>
+    from tksheet import Sheet  # Make sure to install tksheet via pip install tksheet
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'tksheet'
+[PYI-14252:ERROR] Failed to execute script 'shipDataEditor' due to unhandled exception!
+[Exit  12/10/2025 13:36:31.85] code=1 
